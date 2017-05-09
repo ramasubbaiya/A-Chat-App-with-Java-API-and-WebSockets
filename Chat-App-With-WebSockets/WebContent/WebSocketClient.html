@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Websocket Client</title>
+</head>
+<body>
+	<form>
+    	<input id="message" type="text">
+    	<input onclick="wsSendMessage();" value="Echo" type="button">
+    	<input onclick="wsCloseConnection();" value="Disconnect" type="button">
+	</form>
+	<textarea id="echoText" rows="5" cols="30"></textarea>
+</body>
+<script src="script.js" type="text/javascript"></script>
+</html>
